@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing plans</title>
+    <!-- CDN Boostrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- CDN Boostrap Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- Font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" class="buy-btn position-fixed bottom-0 end-0 mb-5 me-5 btn" style="font-weight: 600; color: #fff; background-color: #ff4c51">BUY NOW</button>
+      <!-- Navbar -->
+      <div class="container-navbar container position-sticky top-0 z-index-3 rounded-bottom bg-white" style="z-index: 5; transition: all ease-in-out 0.1s">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg landing-navbar">
+            <ul style="list-style-type: none" class="d-flex justify-content-center align-items-center w-100 m-0">
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">Home</a></li>
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">Features</a></li>
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">Team</a></li>
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">FAQ</a></li>
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">Contact us</a></li>
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">Page us</a></li>
+              <li class="px-3 py-2"><a style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#">Admin</a></li>
+              <li class="dropdown px-3 py-2">
+                <a class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color: #544f5a; text-decoration: none; font-weight: 600; cursor: pointer" href="#"><i class="fa fa-sun-o"></i></a>
+                <!-- sub menu -->
+                <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" style="color: #544f5a" href="#"> <i class="me-2 fa fa-thin fa-sun-o"></i> Light</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" style="color: #544f5a" href="#"> <i class="me-2 fa fa-moon-o"></i> Dark</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" style="color: #544f5a" href="#"> <i class="me-2 fa fa-desktop"></i> System</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="px-3 py-2">
+                <a class="btn px-4 d-block" style="color: #fff; text-decoration: none; font-weight: 600; cursor: pointer; background-color: #9055fd" href="#"> <i class="fa fa-user"></i> LOGIN/REGISTER </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <div class="row" style="margin-bottom: 16px">
+          <h1 class="text-center" style="color: #544f5a">Pricing Plans</h1>
+          <p class="text-center" style="color: #89868d">
+            All plans include 40+ advanced tools and features to boost your product. <br />
+            Choose the best plan to fit your needs.
+          </p>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <label class="form-check-label" style="margin-right: 10px; color: #544f5a" for="flexSwitchCheckDefault">Monthly</label>
+            <div class="form-check form-switch">
+              <input class="form-check-input" style="background-color: #9055fd" type="checkbox" id="flexSwitchCheckDefault" />
+            </div>
+            <label class="form-check-label" for="flexSwitchCheckDefault" style="color: #544f5a">Annually</label>
+          </div>
+        </div>
+
+        <div class="row gap-4">
+          <div class="col-lg text-center border border-secondary rounded-3 p-4">
+            <img height="100" class="img-responsive my-3 pt-2" src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-basic.png" alt="" />
+            <h3>Basic</h3>
+            <p class="mb-3" style="color: #89868d">A simple start for everyone</p>
+
+            <div class="price d-flex justify-content-center my-5">
+              <span class="d-inline-block pb-3 mb-3" style="color: #89868d; font-weight: 600">$</span>
+              <h1 class="fs-1 px-1" style="color: #9055fd">0</h1>
+              <span class="mt-4" style="color: #89868d">/month</span>
+            </div>
+
+            <ul style="list-style-type: circle; color: #89868d" class="text-start">
+              <li class="mb-2">100 responses a month</li>
+              <li class="mb-2">Unlimited forms and surveys</li>
+              <li class="mb-2">Unlimited fields</li>
+              <li class="mb-2">Basic form creation tools</li>
+              <li class="mb-2">Up to 2 subdomains</li>
+            </ul>
+
+            <button type="button" class="btn w-100" style="color: #56ca00; border-color: #abe580; font-weight: 600">YOUR CURRENT PLAN</button>
+          </div>
+
+          <div class="col-lg text-center rounded-3 p-4 position-relative" style="border: 1px solid #9055fd">
+            <span class="bg-light rounded-pill badge position-absolute end-0 me-4 top-0 mt-4" style="color: #9055fd">Popular</span>
+            <img height="100" class="img-responsive my-3 pt-2" src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-standard.png" alt="" />
+            <h3>Standard</h3>
+            <p class="mb-3" style="color: #89868d">For small to medium businesses</p>
+
+            <div class="price d-flex justify-content-center my-5">
+              <span class="d-inline-block pb-3 mb-3" style="color: #89868d; font-weight: 600">$</span>
+              <h1 class="fs-1 px-1" style="color: #9055fd">9</h1>
+              <span class="mt-4" style="color: #89868d">/month</span>
+            </div>
+
+            <ul style="list-style-type: circle; color: #89868d" class="text-start">
+              <li class="mb-2">Unlimited responses</li>
+              <li class="mb-2">Unlimited forms and surveys</li>
+              <li class="mb-2">Instagram profile page</li>
+              <li class="mb-2">Google Docs integration</li>
+              <li class="mb-2">Custom “Thank you” page</li>
+            </ul>
+
+            <button type="button" class="btn w-100" style="background-color: #9055fd; border: 1px solid #9055fd; color: #fff; font-weight: 600">UPGRADE</button>
+          </div>
+
+          <div class="col-lg text-center border border-secondary rounded-3 p-4">
+            <img height="100" class="img-responsive my-3 pt-2" src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-enterprise.png" alt="" />
+            <h3>Enterprise</h3>
+            <p class="mb-3" style="color: #89868d">Solution for big organizations</p>
+
+            <div class="price d-flex justify-content-center my-5">
+              <span class="d-inline-block pb-3 mb-3" style="color: #89868d; font-weight: 600">$</span>
+              <h1 class="fs-1 px-1" style="color: #9055fd" ;;>19</h1>
+              <span class="mt-4" style="color: #89868d">/month</span>
+            </div>
+
+            <ul style="list-style-type: circle; color: #89868d" class="text-start">
+              <li class="mb-2">PayPal payments</li>
+              <li class="mb-2">Logic Jumps</li>
+              <li class="mb-2">File upload with 5GB storage</li>
+              <li class="mb-2">Custom domain support</li>
+              <li class="mb-2">Stripe integration</li>
+            </ul>
+
+            <button type="button" class="btn w-100" style="border: 1px solid #9055fd; color: #9055fd; font-weight: 600">UPGRADE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center" style="background-color: #eee6ff !important">
+        <div class="col col-8 text-center">
+          <div class="text-start d-inline-block">
+            <h3 style="color: #9055fd">Still not convinced? Start with a 14-day FREE trial!</h3>
+            <p style="color: #89868d">You will get full access to with all the features for 14 days.</p>
+            <button type="button" class="btn px-3 py-2 try-btn" style="background-color: #9055fd; color: #fff; font-weight: 600">START 14-DAY FREE TRIAL</button>
+          </div>
+        </div>
+
+        <div class="col col-4">
+          <img class="img-fluid me-lg-5 pe-lg-1 mb-3 mb-lg-0" width="265" src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/sitting-girl-with-laptop.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid my-5">
+      <div class="row text-center">
+        <h3 style="color: #544f5a">Pick a plan that works best for you</h3>
+        <p style="color: #89868d">Stay cool, we have a 48-hour money back guarantee!</p>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row border rounded-3">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th class="px-3" style="font-weight: 400">
+                FEATURES
+                <p class="m-0" style="color: #89868d">Native Front Features</p>
+              </th>
+              <th class="text-center" style="font-weight: 400">
+                STARTER
+                <p class="m-0" style="color: #89868d">FREE</p>
+              </th>
+              <th class="text-center" style="font-weight: 400">
+                PRO <i class="fa fa-star-o rounded-pill" style="background-color: #9055fd; color: #fff; padding: 2px; font-size: 12px"></i>
+                <p class="m-0" style="color: #89868d">$7.5/Month</p>
+              </th>
+              <th class="text-center" style="font-weight: 400">
+                ENTERPRISE
+                <p class="m-0" style="color: #89868d">$16/Month</p>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">14-days free trial</p></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">No user limit</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">Product Support</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">Email Support</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><span class="p-1 rounded-pill" style="background-color: #eee6ff; font-size: 12px; color: #9055fd; font-weight: 600">ADD-ON-AVAILABLE</span></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">Integrations</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">Removal of Front branding</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><span class="p-1 rounded-pill" style="background-color: #eee6ff; font-size: 12px; color: #9055fd; font-weight: 600">ADD-ON-AVAILABLE</span></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">Active maintenance & support</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td class="px-3"><p class="m-0" style="color: #89868d">Data storage for 365 days</p></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="btn btn-close rounded-pill p-1" style="color: #fff; background-color: #9055fd; font-size: 8px; color: #fff !important"></i></td>
+              <td class="text-center"><i class="fa fa-check rounded-pill" style="color: #fff; background-color: #9055fd; padding: 2px; font-size: 12px"></i></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td><button type="button" class="btn px-4 py-2" style="border: 1px solid #9055fd; color: #9055fd">CHOOSE PLAN</button></td>
+              <td><button type="button" class="btn px-4 py-2 border" style="background-color: #9055fd; color: #fff; font-weight: 600">CHOOSE PLAN</button></td>
+              <td><button type="button" class="btn px-4 py-2" style="border: 1px solid #9055fd; color: #9055fd">CHOOSE PLAN</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section w-100" style="background-color: #f4f5fa !important">
+      <div class="container">
+        <div class="row p-5 text-center">
+          <h2 class="" style="color: #544f5a">FAQ's</h2>
+          <p style="color: #89868d">Let us help answer the most common questions.</p>
+
+          <div class="row text-start bg-white rounded-3 p-3" data-bs-toggle="collapse" data-bs-target="#first" style="cursor: pointer; border-bottom: 1px solid #ccc">
+            <div class="faq-title d-flex align-items-center justify-content-between">
+              <div class="w-100" style="color: #544f5a">What counts towards the 100 responses limit?</div>
+              <span class="fa fa-angle-down"></span>
+            </div>
+            <p class="collapse m-0" id="first" style="color: #89868d">We count all responses submitted through all your forms in a month. If you already received 100 responses this month, you won’t be able to receive any more of them until next month when the counter resets.</p>
+          </div>
+
+          <div class="row text-start bg-white rounded-3 p-3" data-bs-toggle="collapse" data-bs-target="#second" style="cursor: pointer; border-bottom: 1px solid #ccc">
+            <div class="faq-title d-flex align-items-center justify-content-between">
+              <div class="w-100" style="color: #544f5a">How do you process payments?</div>
+              <span class="fa fa-angle-down"></span>
+            </div>
+            <p class="collapse m-0" id="second" style="color: #89868d">We accept Visa®, MasterCard®, American Express®, and PayPal®. So you can be confident that your credit card information will be kept safe and secure.</p>
+          </div>
+
+          <div class="row text-start bg-white rounded-3 p-3" data-bs-toggle="collapse" data-bs-target="#third" style="cursor: pointer; border-bottom: 1px solid #ccc">
+            <div class="faq-title d-flex align-items-center justify-content-between">
+              <div class="w-100" style="color: #544f5a">What payment methods do you accept?</div>
+              <span class="fa fa-angle-down"></span>
+            </div>
+            <p class="collapse m-0" id="third" style="color: #89868d">2Checkout accepts all types of credit and debit cards.</p>
+          </div>
+
+          <div class="row text-start bg-white rounded-3 p-3" data-bs-toggle="collapse" data-bs-target="#fourth" style="cursor: pointer; border-bottom: 1px solid #ccc">
+            <div class="faq-title d-flex align-items-center justify-content-between">
+              <div class="w-100" style="color: #544f5a">Do you have a money-back guarantee?</div>
+              <span class="fa fa-angle-down"></span>
+            </div>
+            <p class="collapse m-0" id="fourth" style="color: #89868d">Yes. You may request a refund within 30 days of your purchase without any additional explanations.</p>
+          </div>
+
+          <div class="row text-start bg-white rounded-3 p-3" data-bs-toggle="collapse" data-bs-target="#fifth" style="cursor: pointer; border-bottom: 1px solid #ccc">
+            <div class="faq-title d-flex align-items-center justify-content-between">
+              <div class="w-100" style="color: #544f5a">I have more questions. Where can I get help?</div>
+              <span class="fa fa-angle-down"></span>
+            </div>
+            <p class="collapse m-0" id="fifth" style="color: #89868d">Please contact us if you have any other questions or concerns. We’re here to help!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

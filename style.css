@@ -1,0 +1,26 @@
+.container-navbar ul > li {
+  transition: all ease-in-out 0.2s;
+}
+.container-navbar ul > li:hover:not(:last-child) a:not(li.dropdown ul > li a) {
+  color: #582ea5 !important;
+}
+
+.container-navbar ul > li.dropdown ul > li:hover a {
+  background-color: #efefef !important;
+  color: #582ea5 !important;
+}
+
+.container-navbar ul > li:last-child:hover a,
+.try-btn:hover {
+  background-color: #582ea5 !important;
+}
+
+.buy-btn {
+  box-shadow: 0 1px 20px 1px #ea5455;
+  transition: all ease-in-out 0.2s;
+}
+
+.buy-btn:hover {
+  background-color: #e24348 !important;
+  box-shadow: none;
+}
